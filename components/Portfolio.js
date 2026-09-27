@@ -1,0 +1,296 @@
+"use client";
+
+import { useLayoutEffect, useRef, useState } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { profile, projects, skills, experience, highlights, industries, interests } from "../data/content";
+
+gsap.registerPlugin(ScrollTrigger);
+
+function ProjectVisual({ project }) {
+  return (
+    <div className={`project-visual visual-${project.visual}`}>
+      <div className="visual-grid" />
+      {project.visual === "journey" && (
+        <>
+          <div className="journey-line" />
+          <div className="journey-node n1">01</div>
+          <div className="journey-node n2">02</div>
+          <div className="journey-node n3">03</div>
+          <div className="journey-card">CUSTOMER<br />JOURNEY</div>
+        </>
+      )}
+      {project.visual === "whatsapp" && (
+        <>
+          <div className="phone-mock">
+            <span className="phone-head">Messages</span>
+            <span className="bubble bubble-a">Your update is ready.</span>
+            <span className="bubble bubble-b">Thanks! What’s next?</span>
+            <span className="bubble bubble-a">Here’s your next step →</span>
+          </div>
+          <div className="orbit orbit-a" />
+        </>
+      )}
+      {project.visual === "analytics" && (
+        <>
+          <div className="analytics-bars"><i/><i/><i/><i/><i/><i/></div>
+          <div className="analytics-label">CAMPAIGN<br/>PERFORMANCE</div>
+          <div className="analytics-number">CTR</div>
+        </>
+      )}
+      {project.visual === "playbook" && (
+        <>
+          <div className="playbook-title">CX<br />PLAYBOOK</div>
+          <div className="playbook-circle">CX</div>
+          <div className="playbook-note">LISTEN → MAP → TEST → LEARN</div>
+        </>
+      )}
+    </div>
+  );
+}
+
+export default function Portfolio() {
+  const root = useRef(null);
+  const menu = useRef(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  useLayoutEffect(() => {
+    const ctx = gsap.context(() => {
+      const intro = gsap.timeline({ defaults: { ease: "power4.out" } });
+      intro
+        .from(".hero-kicker", { y: 30, opacity: 0, duration: 0.8 })
+        .from(".hero-name-line", { yPercent: 110, duration: 1.25, stagger: 0.08 }, "-=0.45")
+        .from(".hero-meta", { y: 20, opacity: 0, duration: 0.7 }, "-=0.7")
+        .from(".hero-scroll", { opacity: 0, duration: 0.5 }, "-=0.35");
+
+      gsap.to(".hero-name", {
+        y: -80,
+        scale: 0.72,
+        transformOrigin: "center center",
+        ease: "none",
+        scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: 1 },
+      });
+
+      gsap.to(".hero-orb", {
+        scale: 1.8,
+        rotate: 35,
+        yPercent: 60,
+        ease: "none",
+        scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: 1.2 },
+      });
+
+      gsap.to(".hero-meta", {
+        y: 100,
+        opacity: 0,
+        ease: "none",
+        scrollTrigger: { trigger: ".hero", start: "top top", end: "65% top", scrub: true },
+      });
+
+      gsap.utils.toArray(".reveal-lines").forEach((el) => {
+        gsap.from(el, {
+          y: 90,
+          opacity: 0,
+          duration: 1.1,
+          ease: "power4.out",
+          scrollTrigger: { trigger: el, start: "top 82%", toggleActions: "play none none reverse" },
+        });
+      });
+
+      gsap.from(".about-copy", {
+        x: -80,
+        opacity: 0,
+        duration: 1.2,
+        ease: "power3.out",
+        scrollTrigger: { trigger: ".about", start: "top 70%" },
+      });
+
+      gsap.to(".about-mark", {
+        rotate: 360,
+        ease: "none",
+        scrollTrigger: { trigger: ".about", start: "top bottom", end: "bottom top", scrub: 1 },
+      });
+
+      gsap.utils.toArray(".project-card").forEach((card, index) => {
+        const image = card.querySelector(".project-visual");
+        const copy = card.querySelector(".project-copy");
+        gsap.from(card, {
+          y: 100,
+          opacity: 0,
+          duration: 1,
+          delay: index * 0.03,
+          ease: "power3.out",
+          scrollTrigger: { trigger: card, start: "top 88%", toggleActions: "play none none reverse" },
+        });
+        gsap.fromTo(image, { y: 45, scale: 0.94 }, { y: -20, scale: 1, ease: "none", scrollTrigger: { trigger: card, start: "top bottom", end: "bottom top", scrub: 1 } });
+        gsap.from(copy, { x: index % 2 ? 35 : -35, opacity: 0, duration: 0.9, ease: "power3.out", scrollTrigger: { trigger: card, start: "top 78%" } });
+      });
+
+      const marquee = gsap.to(".marquee-track", { xPercent: -30, duration: 18, ease: "none", repeat: -1 });
+      gsap.to(".marquee-track", { x: 80, ease: "none", scrollTrigger: { trigger: ".marquee", start: "top bottom", end: "bottom top", scrub: 1 } });
+      marquee.pause();
+      ScrollTrigger.create({ trigger: ".marquee", start: "top bottom", end: "bottom top", onEnter: () => marquee.play(), onEnterBack: () => marquee.play(), onLeave: () => marquee.pause(), onLeaveBack: () => marquee.pause() });
+
+      gsap.from(".experience-row", { x: 100, opacity: 0, stagger: 0.12, duration: 0.9, ease: "power3.out", scrollTrigger: { trigger: ".experience", start: "top 70%" } });
+
+      gsap.from(".highlight-item", { x: -50, opacity: 0, stagger: 0.08, duration: 0.8, ease: "power3.out", scrollTrigger: { trigger: ".highlights", start: "top 70%" } });
+
+      gsap.from(".contact-title span", { yPercent: 110, opacity: 0, stagger: 0.08, duration: 1.1, ease: "power4.out", scrollTrigger: { trigger: ".contact", start: "top 72%" } });
+
+      gsap.to(".footer-orb", { y: -100, rotate: -20, ease: "none", scrollTrigger: { trigger: ".footer", start: "top bottom", end: "bottom top", scrub: 1 } });
+    }, root);
+
+    return () => ctx.revert();
+  }, []);
+
+  const openMenu = () => {
+    setMenuOpen(true);
+    requestAnimationFrame(() => {
+      gsap.fromTo(menu.current, { clipPath: "inset(100% 0 0 0)" }, { clipPath: "inset(0% 0 0 0)", duration: 0.8, ease: "power4.inOut" });
+      gsap.fromTo(".menu-link", { y: 70, opacity: 0 }, { y: 0, opacity: 1, duration: 0.65, stagger: 0.08, delay: 0.2, ease: "power3.out" });
+    });
+  };
+
+  const closeMenu = () => {
+    gsap.to(menu.current, { clipPath: "inset(0 0 100% 0)", duration: 0.65, ease: "power4.inOut", onComplete: () => setMenuOpen(false) });
+  };
+
+  const go = (id) => {
+    closeMenu();
+    setTimeout(() => document.querySelector(id)?.scrollIntoView({ behavior: "smooth" }), 650);
+  };
+
+  return (
+    <main ref={root}>
+      <div className="noise" />
+      <header className="nav">
+        <a href="#home" className="brand">ShivamKumar<span>©</span></a>
+        <button className="menu-button" onClick={openMenu}>Menu <i /></button>
+      </header>
+
+      {menuOpen && (
+        <div ref={menu} className="menu-overlay">
+          <div className="menu-top"><span>Navigation</span><button onClick={closeMenu}>Close ×</button></div>
+          <nav className="menu-nav">
+            <button className="menu-link" onClick={() => go("#home")}><small>01</small>Home</button>
+            <button className="menu-link" onClick={() => go("#work")}><small>02</small>Work</button>
+            <button className="menu-link" onClick={() => go("#about")}><small>03</small>About</button>
+            <button className="menu-link" onClick={() => go("#contact")}><small>04</small>Contact</button>
+          </nav>
+        </div>
+      )}
+
+      <section id="home" className="hero">
+        <div className="hero-orb"><span>CRM<br/>CX</span></div>
+        <div className="hero-kicker">MARKETING LEAD / CUSTOMER EXPERIENCE</div>
+        <div className="hero-name">
+          <div className="hero-name-line-wrap"><div className="hero-name-line">Shivam</div></div>
+          <div className="hero-name-line-wrap"><div className="hero-name-line outline">Yadav</div></div>
+        </div>
+        <div className="hero-meta">
+          <span>Based in Mumbai, India</span>
+          <span>01 — 04 / Portfolio 2026</span>
+        </div>
+        <div className="hero-scroll"><span>Scroll to explore</span><b>↓</b></div>
+      </section>
+
+      <section className="statement section-pad">
+        <div className="eyebrow">01 / INTRO</div>
+        <p className="statement-text reveal-lines">I turn customer interactions into <em>clearer journeys</em>, better conversations and measurable experiences.</p>
+        <div className="statement-bottom"><span>01 year experience</span><span>CRM / CX / Marketing</span></div>
+      </section>
+
+      <section id="about" className="about section-pad">
+        <div className="eyebrow">02 / ABOUT</div>
+        <div className="about-grid">
+          <div className="about-mark">✳</div>
+          <div className="about-copy">
+            <h2 className="reveal-lines">Customer experience, <span>from the inside out.</span></h2>
+            <p>{profile.about}</p>
+            <div className="skill-list">
+              {skills.map((group) => (
+                <div className="skill-group" key={group.category}>
+                  <h3>{group.category}</h3>
+                  <div>{group.items.map((skill) => <span key={skill}>{skill}</span>)}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" className="work section-pad">
+        <div className="section-heading"><div className="eyebrow">03 / AREAS OF WORK</div><span>Scroll / Explore</span></div>
+        <div className="projects">
+          {projects.map((project, i) => (
+            <article className={`project-card card-${i + 1}`} key={project.title}>
+              <ProjectVisual project={project} />
+              <div className="project-copy">
+                <div className="project-index">{project.number}</div>
+                <h3>{project.title}</h3>
+                <div className="project-meta"><span>{project.category}</span><span>{project.year}</span></div>
+                <p>{project.description}</p>
+                <span className="project-arrow">↗</span>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="marquee"><div className="marquee-track">CUSTOMER EXPERIENCE <i>✳</i> CRM OPERATIONS <i>✳</i> CAMPAIGN ANALYTICS <i>✳</i> CUSTOMER JOURNEYS <i>✳</i></div></section>
+
+      <section className="experience section-pad">
+        <div className="section-heading"><div className="eyebrow">04 / EXPERIENCE</div><span>01 year + counting</span></div>
+        <div className="experience-list">
+          {experience.map((item) => (
+            <div className="experience-row" key={item.role}>
+              <span className="exp-period">{item.period}</span>
+              <div>
+                <h3>{item.role}</h3>
+                <p>{item.company}</p>
+                <small>{item.description}</small>
+                {item.responsibilities && <ul className="experience-responsibilities">{item.responsibilities.map((responsibility) => <li key={responsibility}>{responsibility}</li>)}</ul>}
+              </div>
+              <span className="exp-arrow">↗</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="highlights section-pad">
+        <div className="eyebrow">05 / HIGHLIGHTS</div>
+        <div className="highlight-list">{highlights.map((item, i) => <div className="highlight-item" key={item}><span>0{i + 1}</span><p>{item}</p><b>↗</b></div>)}</div>
+      </section>
+
+      <section className="focus section-pad">
+        <div className="eyebrow">06 / INDUSTRIES & INTERESTS</div>
+        <div className="focus-grid">
+          <div>
+            <h2>Industries</h2>
+            <div className="focus-list">{industries.map((item) => <article className="focus-item" key={item.name}><h3>{item.name}</h3><p>{item.description}</p></article>)}</div>
+          </div>
+          <div>
+            <h2>Personal interests</h2>
+            <div className="focus-list">{interests.map((item) => <article className="focus-item" key={item.name}><h3>{item.name}</h3><p>{item.description}</p></article>)}</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" className="contact section-pad">
+        <div className="eyebrow">07 / CONTACT</div>
+        <div className="contact-title"><span>Let’s</span><span>build better</span><span>experiences.</span></div>
+        <a className="contact-email" href={`mailto:${profile.email}`}>{profile.email} ↗</a>
+        <div className="contact-grid">
+          <div><span>Based in</span><strong>{profile.location}</strong></div>
+          <div><span>Phone</span><strong>{profile.phone}</strong></div>
+          <div><span>LinkedIn</span><a href={profile.linkedin} target="_blank" rel="noreferrer">Connect ↗</a></div>
+        </div>
+      </section>
+
+      <footer className="footer">
+        <div className="footer-orb">SK</div>
+        <div className="footer-top"><span>Shivam Yadav</span><span>Marketing / Communications / CX</span></div>
+        <div className="footer-bottom"><span>© 2026</span><a href="#home">Back to top ↑</a><span>Mumbai, India</span></div>
+      </footer>
+    </main>
+  );
+}
