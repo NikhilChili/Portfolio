@@ -24,3 +24,9 @@
 .projects .card-3{margin-top:3vw}
 .projects .card-4{margin-top:7vw}
 .projects .project-card{margin-bottom:56px!important}
+
+.nav{left:0;right:0;width:auto;padding-inline:clamp(16px,5vw,42px)}
+.menu-button{flex-shrink:0;white-space:nowrap}
+@media(max-width:480px){.nav{padding-inline:16px}.brand{font-size:12px}.menu-button{gap:7px}}
+.experience{overflow-x:clip}
+html,body{max-width:100%;overflow-x:clip}
