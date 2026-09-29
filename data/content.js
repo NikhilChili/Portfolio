@@ -2,7 +2,7 @@ export const profile = {
   name: "Shivam Yadav",
   firstName: "Shivam",
   lastName: "Yadav",
-  title: "Marketing Lead",
+  title: "Marketing · Communications · Customer Experience",
   role: "Executive – Customer Experience",
   location: "Mumbai, India",
   email: "shivamkumar@gmail.com",
@@ -10,46 +10,46 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/shivam-yadav-63204a241/",
   experience: "1 year",
   intro:
-    "I turn customer interactions into clearer journeys, better conversations and measurable experiences.",
+    "I turn customer touchpoints into clearer journeys, relevant conversations and measurable digital experiences.",
   about:
-    "I’m Shivam Yadav, a marketing and communications professional with experience across fintech, banking and financial services. My work focuses on digital customer communication, campaign execution and customer journeys across WhatsApp, SMS and email. I enjoy working at the intersection of marketing, product and operations, turning business requirements into clear communication experiences. I’m also building towards opportunities in sports, entertainment and consumer brands, particularly across digital marketing, fan engagement, partnerships and communications.",
-  currently: "Marketing, Communications & Operations at 1 Finance P2P",
+    "I work in fintech across digital communications, campaign execution and borrower and lender journeys. At 1 Finance P2P, I coordinate with Product, Technology, QA and Operations to turn business needs into clear customer communications. I’m interested in bringing this experience to sports and consumer brands.",
+  currently: "P2P Operations & Customer Communications at 1 Finance P2P",
 };
 
 export const projects = [
   {
     number: "01",
-    title: "Borrower & Lender Journeys",
-    category: "JOURNEY MAPPING / CX",
+    title: "Customer Communication Journey",
+    category: "CUSTOMER JOURNEYS / DIGITAL COMMUNICATIONS",
     year: "2026",
-    description: "Mapping borrower and lender journeys to connect product stages with timely, clear customer communication.",
+    description: "Mapped multi-channel borrower and lender journeys, connecting key lending stages with relevant customer communications.",
     accent: "lime",
     visual: "journey",
   },
   {
     number: "02",
-    title: "Lifecycle Communications",
-    category: "WHATSAPP / SMS / EMAIL",
+    title: "WhatsApp Lifecycle Communications",
+    category: "LIFECYCLE MARKETING / WHATSAPP",
     year: "2026",
-    description: "Managing customer communication journeys across WhatsApp, SMS and email, including automated lifecycle triggers.",
+    description: "Managed lifecycle messages that guide customers from application updates to clear next steps.",
     accent: "blue",
     visual: "whatsapp",
   },
   {
     number: "03",
-    title: "Campaign Execution",
-    category: "CAMPAIGNS / ANALYTICS",
+    title: "Campaign Performance & Reporting",
+    category: "CAMPAIGNS / REPORTING",
     year: "2026",
-    description: "Planning campaigns for large customer segments and monitoring delivery, engagement and click performance.",
+    description: "Planned and executed campaigns reaching tens of thousands of customers, monitoring delivery and engagement.",
     accent: "orange",
     visual: "analytics",
   },
   {
     number: "04",
-    title: "Communication Operations",
-    category: "PRODUCT / OPERATIONS",
+    title: "Communication Automation",
+    category: "MARKETING OPERATIONS / AUTOMATION",
     year: "2026",
-    description: "Translating operational needs into Jira requirements, supporting UAT and coordinating customer-facing enhancements.",
+    description: "Contributed to moving campaign processes from manual execution towards API-based automation, coordinating requirements and UAT.",
     accent: "violet",
     visual: "playbook",
   },
@@ -57,11 +57,11 @@ export const projects = [
 
 export const skills = [
   {
-    category: "Marketing & Communication",
+    category: "Digital Communications",
     items: ["Digital Marketing", "WhatsApp Marketing", "Email Marketing", "SMS Campaigns", "Customer Communication", "Copywriting", "Campaign Planning"],
   },
   {
-    category: "Customer Experience",
+    category: "Lifecycle Marketing & Customer Journeys",
     items: ["Customer Journey Mapping", "Lifecycle Communication", "Customer Engagement", "Communication Automation", "Funnel Optimisation"],
   },
   {
@@ -69,7 +69,7 @@ export const skills = [
     items: ["Campaign Execution", "Engagement Tracking", "Reporting", "MIS", "Click & Delivery Analysis"],
   },
   {
-    category: "Product & Operations",
+    category: "Marketing Operations",
     items: ["Jira", "UAT", "Requirement Gathering", "Process Improvement", "Cross-functional Coordination"],
   },
   {
@@ -80,16 +80,16 @@ export const skills = [
 
 export const experience = [
   {
-    role: "Marketing, Communications & Operations",
+    role: "Executive – Customer Experience",
     company: "1 Finance P2P",
     period: "2025 — Present",
-    description: "Working across customer communication, campaigns and operational processes for borrowers and lenders.",
+    description: "P2P operations and customer communications across borrower and lender journeys.",
     responsibilities: [
-      "Manage WhatsApp, SMS and email communication journeys and plan customer campaigns.",
-      "Create automated communication triggers and map borrower and lender journeys across the customer lifecycle.",
-      "Monitor campaign delivery, engagement and click performance.",
-      "Coordinate with Product, Technology, QA, Compliance and Operations teams; create Jira requirements for communication and product enhancements.",
-      "Support UAT and customer-facing feature implementation, working with MSG91, Interakt and Meta Business tools.",
+      "Manage customer communications across WhatsApp, SMS and email; plan and execute campaigns.",
+      "Map multi-channel borrower and lender journeys and identify communication automation opportunities.",
+      "Monitor campaign delivery and engagement across customer segments reaching tens of thousands.",
+      "Coordinate communication requirements and UAT with Product, Technology, QA and Operations.",
+      "Support API-based campaign automation and customer-facing enhancements.",
       "Support KYC, CKYC and digital lending processes.",
     ],
   },
@@ -102,28 +102,26 @@ export const experience = [
 ];
 
 export const highlights = [
-  "Built and structured customer communication journeys across WhatsApp, SMS and email.",
-  "Managed campaigns targeting large customer segments across digital communication channels.",
-  "Helped move campaign processes from manual execution towards API-based automation.",
-  "Created borrower and lender journey maps connecting product stages with customer communication.",
-  "Worked with Product, Technology, QA and Operations teams to implement communication requirements.",
-  "Contributed to improvements across onboarding, KYC, repayments and customer engagement processes.",
-  "Translated operational challenges into structured product requirements and Jira stories.",
+  "Campaigns reaching tens of thousands of customers across digital channels.",
+  "Contributed to API-based campaign automation, reducing reliance on manual execution.",
+  "Mapped multi-channel borrower and lender journeys across key lending stages.",
+  "Coordinated with Product, Technology, QA and Operations to deliver communication requirements.",
 ];
 
 export const industries = [
-  { name: "Fintech & Financial Services", description: "Digital lending, P2P lending, customer onboarding and financial communication." },
-  { name: "Banking & NBFC", description: "Lending processes, customer operations and financial services." },
-  { name: "Digital Marketing & Customer Engagement", description: "Campaigns, lifecycle communication and digital customer journeys." },
-  { name: "Sports & Entertainment", description: "A growing focus on sports marketing, fan engagement, partnerships, digital content and sporting events." },
-  { name: "Consumer & Digital-First Brands", description: "Brands using technology, content and communication to build strong communities." },
+  {
+    category: "Industries I’ve Worked In",
+    items: ["Fintech", "Digital Lending", "Banking", "NBFC / Financial Services"],
+  },
+  {
+    category: "Industries I’m Exploring",
+    items: ["Sports", "Entertainment", "Consumer Brands", "Digital-First Businesses"],
+  },
 ];
 
 export const interests = [
-  { name: "Sports", description: "Cricket, sports leagues, fan culture and the business of sport." },
-  { name: "Sports Marketing", description: "Fan engagement, sponsorships, partnerships, matchday experiences and digital communication." },
-  { name: "Content & Social Media", description: "Digital storytelling, social media content and audience engagement." },
-  { name: "Consumer Behaviour", description: "How people interact with brands and what drives customer loyalty." },
-  { name: "Business & Entrepreneurship", description: "New business models, emerging industries and technology-driven opportunities." },
-  { name: "Networking & Learning", description: "Connecting with professionals across sports, marketing and technology, and learning from different industries." },
+  "Sports & Fan Culture",
+  "Sports Business",
+  "Content & Digital Media",
+  "Business & Entrepreneurship",
 ];

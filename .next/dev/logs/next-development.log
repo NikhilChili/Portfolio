@@ -1,6 +1,9 @@
-{"timestamp":"00:00:01.089","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:01.089","source":"Server","level":"LOG","message":"✓ Generated AGENTS.md and CLAUDE.md for AI agents. Set `agentRules: false` in next.config to disable."}
-{"timestamp":"00:00:03.914","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"10:59:35.889","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"11:05:36.663","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"11:23:11.145","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:03.401","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:02:25.810","source":"Server","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `Portfolio`. See https://react.dev/link/warning-keys for more information."}
+{"timestamp":"00:02:25.810","source":"Server","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `Portfolio`. See https://react.dev/link/warning-keys for more information."}
+{"timestamp":"00:02:26.019","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:02:26.097","source":"Browser","level":"ERROR","message":"Each child in a list should have a unique \"key\" prop.\n\nCheck the render method of `Portfolio`. See https://react.dev/link/warning-keys for more information. "}
+{"timestamp":"00:02:26.098","source":"Server","level":"ERROR","message":"[browser] \"Each child in a list should have a unique \\\"key\\\" prop.\\n\\nCheck the render method of `Portfolio`. See https://react.dev/link/warning-keys for more information.\" \"\""}
+{"timestamp":"00:03:01.479","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:03:46.155","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"00:04:14.970","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}

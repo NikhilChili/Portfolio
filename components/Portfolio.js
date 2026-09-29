@@ -24,9 +24,9 @@ function ProjectVisual({ project }) {
         <>
           <div className="phone-mock">
             <span className="phone-head">Messages</span>
-            <span className="bubble bubble-a">Your update is ready.</span>
-            <span className="bubble bubble-b">Thanks! What’s next?</span>
-            <span className="bubble bubble-a">Here’s your next step →</span>
+            <span className="bubble bubble-a">Application received ✓</span>
+            <span className="bubble bubble-b">Your application is being reviewed.</span>
+            <span className="bubble bubble-a">Your next step is ready →</span>
           </div>
           <div className="orbit orbit-a" />
         </>
@@ -40,9 +40,9 @@ function ProjectVisual({ project }) {
       )}
       {project.visual === "playbook" && (
         <>
-          <div className="playbook-title">CX<br />PLAYBOOK</div>
+          <div className="playbook-title">COMMS<br />SYSTEM</div>
           <div className="playbook-circle">CX</div>
-          <div className="playbook-note">LISTEN → MAP → TEST → LEARN</div>
+          <div className="playbook-note">MAP → TRIGGER → TEST → MEASURE</div>
         </>
       )}
     </div>
@@ -180,8 +180,8 @@ export default function Portfolio() {
       )}
 
       <section id="home" className="hero">
-        <div className="hero-orb"><span>CRM<br/>CX</span></div>
-        <div className="hero-kicker">MARKETING LEAD / CUSTOMER EXPERIENCE</div>
+        <div className="hero-orb"><span>COMMS<br/>CX</span></div>
+        <div className="hero-kicker">MARKETING · COMMUNICATIONS · CUSTOMER EXPERIENCE</div>
         <div className="hero-name">
           <div className="hero-name-line-wrap"><div className="hero-name-line">Shivam</div></div>
           <div className="hero-name-line-wrap"><div className="hero-name-line outline">Yadav</div></div>
@@ -195,8 +195,8 @@ export default function Portfolio() {
 
       <section className="statement section-pad">
         <div className="eyebrow">01 / INTRO</div>
-        <p className="statement-text reveal-lines">I turn customer interactions into <em>clearer journeys</em>, better conversations and measurable experiences.</p>
-        <div className="statement-bottom"><span>01 year experience</span><span>CRM / CX / Marketing</span></div>
+        <p className="statement-text reveal-lines">I turn customer touchpoints into <em>clearer journeys</em>, relevant conversations and measurable digital experiences.</p>
+        <div className="statement-bottom"><span>1+ Year of Experience</span><span>Marketing / Communications / CX</span></div>
       </section>
 
       <section id="about" className="about section-pad">
@@ -204,7 +204,7 @@ export default function Portfolio() {
         <div className="about-grid">
           <div className="about-mark">✳</div>
           <div className="about-copy">
-            <h2 className="reveal-lines">Customer experience, <span>from the inside out.</span></h2>
+            <h2 className="reveal-lines">Building better conversations <span>between brands and customers.</span></h2>
             <p>{profile.about}</p>
             <div className="skill-list">
               {skills.map((group) => (
@@ -219,7 +219,7 @@ export default function Portfolio() {
       </section>
 
       <section id="work" className="work section-pad">
-        <div className="section-heading"><div className="eyebrow">03 / AREAS OF WORK</div><span>Scroll / Explore</span></div>
+        <div className="section-heading"><div className="eyebrow">03 / SELECTED WORK</div><span>Scroll / Explore</span></div>
         <div className="projects">
           {projects.map((project, i) => (
             <article className={`project-card card-${i + 1}`} key={project.title}>
@@ -236,10 +236,10 @@ export default function Portfolio() {
         </div>
       </section>
 
-      <section className="marquee"><div className="marquee-track">CUSTOMER EXPERIENCE <i>✳</i> CRM OPERATIONS <i>✳</i> CAMPAIGN ANALYTICS <i>✳</i> CUSTOMER JOURNEYS <i>✳</i></div></section>
+      <section className="marquee"><div className="marquee-track">DIGITAL COMMUNICATIONS <i>✳</i> CUSTOMER JOURNEYS <i>✳</i> CAMPAIGN STRATEGY <i>✳</i> CUSTOMER EXPERIENCE <i>✳</i> MARKETING OPERATIONS <i>✳</i></div></section>
 
       <section className="experience section-pad">
-        <div className="section-heading"><div className="eyebrow">04 / EXPERIENCE</div><span>01 year + counting</span></div>
+        <div className="section-heading"><div className="eyebrow">04 / EXPERIENCE</div><span>1+ Year of Experience</span></div>
         <div className="experience-list">
           {experience.map((item) => (
             <div className="experience-row" key={item.role}>
@@ -257,27 +257,30 @@ export default function Portfolio() {
       </section>
 
       <section className="highlights section-pad">
-        <div className="eyebrow">05 / HIGHLIGHTS</div>
+        <div className="eyebrow">05 / IMPACT</div>
         <div className="highlight-list">{highlights.map((item, i) => <div className="highlight-item" key={item}><span>0{i + 1}</span><p>{item}</p><b>↗</b></div>)}</div>
       </section>
 
       <section className="focus section-pad">
-        <div className="eyebrow">06 / INDUSTRIES & INTERESTS</div>
+        <div className="eyebrow">06 / INDUSTRY FOCUS</div>
         <div className="focus-grid">
-          <div>
-            <h2>Industries</h2>
-            <div className="focus-list">{industries.map((item) => <article className="focus-item" key={item.name}><h3>{item.name}</h3><p>{item.description}</p></article>)}</div>
-          </div>
-          <div>
-            <h2>Personal interests</h2>
-            <div className="focus-list">{interests.map((item) => <article className="focus-item" key={item.name}><h3>{item.name}</h3><p>{item.description}</p></article>)}</div>
+          {industries.map((group) => (
+            <div key={group.category}>
+              <h2>{group.category}</h2>
+              <div className="focus-tags">{group.items.map((item) => <span key={item}>{item}</span>)}</div>
+            </div>
+          ))}
+          <div className="personal-interests">
+            <h2>Personal Interests</h2>
+            <p className="interests-copy">{interests.join(" · ")}</p>
           </div>
         </div>
       </section>
 
       <section id="contact" className="contact section-pad">
         <div className="eyebrow">07 / CONTACT</div>
-        <div className="contact-title"><span>Let’s</span><span>build better</span><span>experiences.</span></div>
+        <div className="contact-title"><span>Let’s build</span><span>better conversations</span><span>and experiences.</span></div>
+        <p className="contact-note">Open to conversations across marketing, communications, customer experience and sports.</p>
         <a className="contact-email" href={`mailto:${profile.email}`}>{profile.email} ↗</a>
         <div className="contact-grid">
           <div><span>Based in</span><strong>{profile.location}</strong></div>
