@@ -37,3 +37,26 @@ html,body{max-width:100%;overflow-x:clip}
 .interests-copy,.contact-note{color:var(--muted);font-size:14px;line-height:1.6}
 .contact-note{max-width:520px;margin:-35px 0 35px}
 @media(max-width:700px){.personal-interests{grid-column:auto}.contact-note{margin:-20px 0 28px;font-size:12px}}
+.intro-subtext,.work-intro,.impact-intro{max-width:700px;color:var(--muted);font-size:15px;line-height:1.7}
+.intro-subtext{margin:28px 0 55px}
+.work-intro{margin:30px 0 0 auto}
+.project-tagline{margin:14px 0 0;color:var(--fg);font-size:14px;font-weight:600;line-height:1.5}
+.visual-steps{position:absolute;left:5%;right:5%;bottom:7%;display:flex;align-items:center;justify-content:space-between;gap:5px;z-index:2}
+.visual-steps span{font:9px "DM Mono",monospace;color:currentColor;text-align:center}
+.visual-steps span+span:before{content:"→";margin-right:7px;opacity:.6}
+.experience-tagline{font-size:13px!important;font-style:italic;color:#ccc!important;margin:14px 0!important}
+.experience-responsibilities{list-style:none;padding:0}
+.experience-responsibilities li{position:relative;padding-left:15px}
+.experience-responsibilities li:before{content:"—";position:absolute;left:0;color:#aaa}
+.impact-intro,.industry-intro{margin:28px 0 0;color:var(--muted);font-size:14px}
+.highlight-item h3{margin:0;font-size:clamp(17px,2vw,25px);font-weight:500;line-height:1.35}
+.highlight-item div p{margin:8px 0 0;color:var(--muted);font-size:12px;line-height:1.5}
+.industry-list,.interest-list{margin-top:28px}
+.industry-item,.interest-list article{padding:17px 0;border-top:1px solid var(--line)}
+.industry-item:last-child,.interest-list article:last-child{border-bottom:1px solid var(--line)}
+.industry-item h3,.interest-list h3{margin:0;font-size:16px;font-weight:600}
+.industry-item p,.interest-list p{margin:8px 0;color:#aaa;font-size:12px;line-height:1.6}
+.industry-item small,.interest-list small{color:var(--muted);font-size:11px;line-height:1.5}
+.personal-interests{grid-column:1/-1}
+.interest-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:5vw}
+@media(max-width:700px){.personal-interests{grid-column:auto}.interest-list{grid-template-columns:1fr}.intro-subtext{margin:22px 0 40px;font-size:13px}.visual-steps span{font-size:7px}.project-tagline{font-size:12px}.project-copy{transform:translateX(0)!important}.hero-name{font-size:clamp(48px,14vw,84px)}.contact-title span{max-width:100%;overflow-wrap:anywhere}}

@@ -14,10 +14,8 @@ function ProjectVisual({ project }) {
       {project.visual === "journey" && (
         <>
           <div className="journey-line" />
-          <div className="journey-node n1">01</div>
-          <div className="journey-node n2">02</div>
-          <div className="journey-node n3">03</div>
           <div className="journey-card">CUSTOMER<br />JOURNEY</div>
+          <div className="visual-steps">{project.visualSteps.map((step) => <span key={step}>{step}</span>)}</div>
         </>
       )}
       {project.visual === "whatsapp" && (
@@ -36,6 +34,7 @@ function ProjectVisual({ project }) {
           <div className="analytics-bars"><i/><i/><i/><i/><i/><i/></div>
           <div className="analytics-label">CAMPAIGN<br/>PERFORMANCE</div>
           <div className="analytics-number">CTR</div>
+          <div className="visual-steps">{project.visualSteps.map((step) => <span key={step}>{step}</span>)}</div>
         </>
       )}
       {project.visual === "playbook" && (
@@ -181,9 +180,9 @@ export default function Portfolio() {
 
       <section id="home" className="hero">
         <div className="hero-orb"><span>COMMS<br/>CX</span></div>
-        <div className="hero-kicker">MARKETING · COMMUNICATIONS · CUSTOMER EXPERIENCE</div>
+        <div className="hero-kicker">{profile.title}</div>
         <div className="hero-name">
-          <div className="hero-name-line-wrap"><div className="hero-name-line">Shivam</div></div>
+          <div className="hero-name-line-wrap"><div className="hero-name-line">{profile.firstName}</div></div>
           <div className="hero-name-line-wrap"><div className="hero-name-line outline">Yadav</div></div>
         </div>
         <div className="hero-meta">
@@ -195,8 +194,9 @@ export default function Portfolio() {
 
       <section className="statement section-pad">
         <div className="eyebrow">01 / INTRO</div>
-        <p className="statement-text reveal-lines">I turn customer touchpoints into <em>clearer journeys</em>, relevant conversations and measurable digital experiences.</p>
-        <div className="statement-bottom"><span>1+ Year of Experience</span><span>Marketing / Communications / CX</span></div>
+        <p className="statement-text reveal-lines">{profile.intro}</p>
+        <p className="intro-subtext">{profile.introSubtext}</p>
+        <div className="statement-bottom"><span>2 years experience</span><span>Marketing / Communications / Customer Journeys</span></div>
       </section>
 
       <section id="about" className="about section-pad">
@@ -205,7 +205,7 @@ export default function Portfolio() {
           <div className="about-mark">✳</div>
           <div className="about-copy">
             <h2 className="reveal-lines">Building better conversations <span>between brands and customers.</span></h2>
-            <p>{profile.about}</p>
+            {profile.about.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
             <div className="skill-list">
               {skills.map((group) => (
                 <div className="skill-group" key={group.category}>
@@ -220,6 +220,7 @@ export default function Portfolio() {
 
       <section id="work" className="work section-pad">
         <div className="section-heading"><div className="eyebrow">03 / SELECTED WORK</div><span>Scroll / Explore</span></div>
+        <p className="work-intro">Proof that I don’t just talk about customer journeys. I build them, for both sides of the table.</p>
         <div className="projects">
           {projects.map((project, i) => (
             <article className={`project-card card-${i + 1}`} key={project.title}>
@@ -227,7 +228,8 @@ export default function Portfolio() {
               <div className="project-copy">
                 <div className="project-index">{project.number}</div>
                 <h3>{project.title}</h3>
-                <div className="project-meta"><span>{project.category}</span><span>{project.year}</span></div>
+                {project.tagline && <p className="project-tagline">{project.tagline}</p>}
+                <div className="project-meta"><span>{project.category}</span></div>
                 <p>{project.description}</p>
                 <span className="project-arrow">↗</span>
               </div>
@@ -244,9 +246,10 @@ export default function Portfolio() {
           {experience.map((item) => (
             <div className="experience-row" key={item.role}>
               <span className="exp-period">{item.period}</span>
-              <div>
+              <div className="experience-copy">
                 <h3>{item.role}</h3>
                 <p>{item.company}</p>
+                {item.tagline && <p className="experience-tagline">{item.tagline}</p>}
                 <small>{item.description}</small>
                 {item.responsibilities && <ul className="experience-responsibilities">{item.responsibilities.map((responsibility) => <li key={responsibility}>{responsibility}</li>)}</ul>}
               </div>
@@ -258,21 +261,23 @@ export default function Portfolio() {
 
       <section className="highlights section-pad">
         <div className="eyebrow">05 / IMPACT</div>
-        <div className="highlight-list">{highlights.map((item, i) => <div className="highlight-item" key={item}><span>0{i + 1}</span><p>{item}</p><b>↗</b></div>)}</div>
+        <p className="impact-intro">The scoreboard. Less talk, more results.</p>
+        <div className="highlight-list">{highlights.map((item, i) => <div className="highlight-item" key={item.statement}><span>0{i + 1}</span><div><h3>{item.statement}</h3><p>{item.detail}</p></div><b>↗</b></div>)}</div>
       </section>
 
       <section className="focus section-pad">
         <div className="eyebrow">06 / INDUSTRY FOCUS</div>
         <div className="focus-grid">
           {industries.map((group) => (
-            <div key={group.category}>
+            <div className="industry-group" key={group.category}>
               <h2>{group.category}</h2>
-              <div className="focus-tags">{group.items.map((item) => <span key={item}>{item}</span>)}</div>
+              {group.intro && <p className="industry-intro">{group.intro}</p>}
+              <div className="industry-list">{group.items.map((item) => <article className="industry-item" key={item.name}><h3>{item.name}</h3><p>{item.description}</p><small>{item.note}</small></article>)}</div>
             </div>
           ))}
           <div className="personal-interests">
             <h2>Personal Interests</h2>
-            <p className="interests-copy">{interests.join(" · ")}</p>
+            <div className="interest-list">{interests.map((item) => <article key={item.name}><h3>{item.name}</h3><p>{item.description}</p><small>{item.note}</small></article>)}</div>
           </div>
         </div>
       </section>
@@ -280,7 +285,7 @@ export default function Portfolio() {
       <section id="contact" className="contact section-pad">
         <div className="eyebrow">07 / CONTACT</div>
         <div className="contact-title"><span>Let’s build</span><span>better conversations</span><span>and experiences.</span></div>
-        <p className="contact-note">Open to conversations across marketing, communications, customer experience and sports.</p>
+        <p className="contact-note">Open to opportunities across marketing, communications, customer experience and sports. Whether it’s a role, a project, or just a good chat about fan engagement, my inbox is open, and unlike most campaigns, I promise to reply.</p>
         <a className="contact-email" href={`mailto:${profile.email}`}>{profile.email} ↗</a>
         <div className="contact-grid">
           <div><span>Based in</span><strong>{profile.location}</strong></div>
@@ -291,7 +296,7 @@ export default function Portfolio() {
 
       <footer className="footer">
         <div className="footer-orb">SK</div>
-        <div className="footer-top"><span>Shivam Yadav</span><span>Marketing / Communications / CX</span></div>
+        <div className="footer-top"><span>Shivamkumar Yadav</span><span>Marketing / Communications / CX</span></div>
         <div className="footer-bottom"><span>© 2026</span><a href="#home">Back to top ↑</a><span>Mumbai, India</span></div>
       </footer>
     </main>

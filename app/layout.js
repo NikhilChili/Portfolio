@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Shivam Yadav — Marketing · Communications · Customer Experience",
-  description: "Portfolio of Shivam Yadav, a customer experience professional working across digital communications, customer journeys and campaign execution.",
+  title: "Shivamkumar Yadav — Marketing, Communications & Customer Journeys",
+  description: "Portfolio of Shivamkumar Yadav, a marketing and communications professional working across fintech, customer journeys and digital campaigns.",
 };
 
 export default function RootLayout({ children }) {
