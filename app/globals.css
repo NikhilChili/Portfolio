@@ -60,3 +60,4 @@ html,body{max-width:100%;overflow-x:clip}
 .personal-interests{grid-column:1/-1}
 .interest-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:5vw}
 @media(max-width:700px){.personal-interests{grid-column:auto}.interest-list{grid-template-columns:1fr}.intro-subtext{margin:22px 0 40px;font-size:13px}.visual-steps span{font-size:7px}.project-tagline{font-size:12px}.project-copy{transform:translateX(0)!important}.hero-name{font-size:clamp(48px,14vw,84px)}.contact-title span{max-width:100%;overflow-wrap:anywhere}}
+@media(min-width:801px){.about-grid{grid-template-columns:1.2fr 1.8fr}}

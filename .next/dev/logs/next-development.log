@@ -1,35 +1,85 @@
-{"timestamp":"00:00:05.020","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:01:38.739","source":"Server","level":"ERROR","message":"⨯ Error: Objects are not valid as a React child (found: object with keys {statement, detail}). If you meant to render a collection of children, use an array instead."}
-{"timestamp":"00:01:38.867","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:01:38.945","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
-{"timestamp":"00:01:38.945","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
-{"timestamp":"00:01:38.946","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
-{"timestamp":"00:01:38.946","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
-{"timestamp":"00:01:38.946","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
-{"timestamp":"00:01:38.946","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
-{"timestamp":"00:01:38.946","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
-{"timestamp":"00:01:38.946","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
-{"timestamp":"00:01:38.947","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
-{"timestamp":"00:01:38.947","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
-{"timestamp":"00:01:38.947","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
-{"timestamp":"00:01:38.947","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
-{"timestamp":"00:01:38.947","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
-{"timestamp":"00:01:38.947","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
-{"timestamp":"00:01:38.947","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
-{"timestamp":"00:01:38.948","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `[object Object]`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
-{"timestamp":"00:01:38.949","source":"Browser","level":"ERROR","message":"Uncaught Error: Objects are not valid as a React child (found: object with keys {statement, detail}). If you meant to render a collection of children, use an array instead.\n    at Home (app/page.js:4:10)\n  \u001b[90m2 |\u001b[0m\n  \u001b[90m3 |\u001b[0m \u001b[36mexport\u001b[0m \u001b[36mdefault\u001b[0m \u001b[36mfunction\u001b[0m \u001b[33mHome\u001b[0m() {\n\u001b[31m\u001b[1m>\u001b[0m \u001b[90m4 |\u001b[0m   \u001b[36mreturn\u001b[0m <\u001b[33mPortfolio\u001b[0m />;\n  \u001b[90m  |\u001b[0m          \u001b[31m\u001b[1m^\u001b[0m\n  \u001b[90m5 |\u001b[0m }\n  \u001b[90m6 |\u001b[0m"}
-{"timestamp":"00:01:38.949","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught Error: Objects are not valid as a React child (found: object with keys {statement, detail}). If you meant to render a collection of children, use an array instead.\\u001b[39m\\n\\u001b[31m    at Home (app/page.js:4:10)\\u001b[39m\\n  \\u001b[90m2 |\\u001b[0m\\n  \\u001b[90m3 |\\u001b[0m \\u001b[36mexport\\u001b[0m \\u001b[36mdefault\\u001b[0m \\u001b[36mfunction\\u001b[0m \\u001b[33mHome\\u001b[0m() {\\n\\u001b[31m\\u001b[1m>\\u001b[0m \\u001b[90m4 |\\u001b[0m   \\u001b[36mreturn\\u001b[0m <\\u001b[33mPortfolio\\u001b[0m />;\\n  \\u001b[90m  |\\u001b[0m          \\u001b[31m\\u001b[1m^\\u001b[0m\\n  \\u001b[90m5 |\\u001b[0m }\\n  \\u001b[90m6 |\\u001b[0m\""}
-{"timestamp":"00:01:56.868","source":"Server","level":"ERROR","message":"⨯ Error: Objects are not valid as a React child (found: object with keys {statement, detail}). If you meant to render a collection of children, use an array instead."}
-{"timestamp":"00:01:56.915","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:02:10.805","source":"Server","level":"ERROR","message":"⨯ Error: Objects are not valid as a React child (found: object with keys {name, description, note}). If you meant to render a collection of children, use an array instead."}
-{"timestamp":"00:02:10.856","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:02:25.660","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:02:46.843","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
-{"timestamp":"00:02:56.265","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
-{"timestamp":"00:03:23.193","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:03:32.436","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:04:03.032","source":"Server","level":"LOG","message":"✓ Compiled in 6ms"}
-{"timestamp":"00:04:14.597","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:04:50.996","source":"Server","level":"LOG","message":"✓ Compiled in 6ms"}
-{"timestamp":"00:05:13.994","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:09:03.850","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:05.490","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:15.016","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:17.280","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:02:05.996","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:02:06.399","source":"Server","level":"LOG","message":"✓ Compiled in 133ms"}
+{"timestamp":"00:07:50.121","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:08:34.428","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:08:34.791","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
+{"timestamp":"00:08:52.489","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:08:57.730","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:08:58.765","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:08:58.816","source":"Browser","level":"WARN","message":"Image with src \"/shivamimage.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:08:58.843","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/shivamimage.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:09:39.055","source":"Server","level":"LOG","message":"✓ Compiled in 73ms"}
+{"timestamp":"00:11:21.524","source":"Server","level":"LOG","message":"✓ Compiled in 80ms"}
+{"timestamp":"00:11:38.035","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:12:14.148","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"00:12:23.991","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:12:24.026","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:12:24.057","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:12:24.057","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:12:24.061","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:12:27.840","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:12:27.860","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:12:27.861","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:12:27.861","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:12:27.861","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:12:38.555","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:12:38.572","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:12:38.572","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:12:38.573","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:12:38.573","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:15:29.766","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:15:29.792","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:15:29.793","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:15:29.793","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:15:29.793","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:15:33.020","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:15:33.039","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:15:33.039","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:15:33.039","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:15:33.040","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:16:16.552","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:16:16.572","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:16:16.572","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:16:16.573","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:16:16.573","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:17:52.797","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:17:52.822","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:17:52.823","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:17:52.823","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:17:52.823","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:23:39.950","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:23:39.997","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:23:39.997","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:23:39.997","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:23:39.997","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:24:15.701","source":"Server","level":"LOG","message":"✓ Compiled in 87ms"}
+{"timestamp":"01:25:21.625","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:25:21.678","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"01:25:21.679","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"01:25:21.680","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"01:25:21.680","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"01:28:13.586","source":"Server","level":"LOG","message":"✓ Compiled in 67ms"}
+{"timestamp":"01:28:37.757","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:28:37.795","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"01:28:37.795","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"01:28:37.796","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"01:28:37.796","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"01:29:16.941","source":"Server","level":"LOG","message":"✓ Compiled in 77ms"}
+{"timestamp":"01:29:54.808","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"01:32:59.978","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"01:37:42.436","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:37:42.480","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"01:37:42.481","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"01:37:42.481","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"01:37:42.481","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"01:42:45.600","source":"Server","level":"LOG","message":"✓ Compiled in 56ms"}
+{"timestamp":"01:42:48.221","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"01:42:48.282","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
+{"timestamp":"01:42:52.991","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:42:53.017","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"01:42:53.017","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"01:42:53.017","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"01:42:53.017","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}

@@ -1,4 +1,4 @@
-# ShivamKumar Yadav — Animated Portfolio
+# Shivam Yadav — Animated Portfolio
 
 A cinematic single-page portfolio built with **Next.js + JavaScript + GSAP + ScrollTrigger**.
 

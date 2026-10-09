@@ -1,6 +1,6 @@
 export const profile = {
-  name: "Shivamkumar Yadav",
-  firstName: "Shivamkumar",
+  name: "Shivam Yadav",
+  firstName: "Shivam",
   lastName: "Yadav",
   title: "Marketing, Communications & Customer Journeys",
   role: "Marketing & Communications",
