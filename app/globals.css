@@ -8,7 +8,7 @@
 .skill-group{margin-top:26px}
 .skill-group h3{margin:0 0 12px;font:10px "DM Mono",monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
 .skill-group>div{display:flex;flex-wrap:wrap;gap:8px}
-.experience-responsibilities{margin:20px 0 0;padding-left:18px;color:#898782;font-size:12px;line-height:1.7}
+.experience-responsibilities{margin:20px 0 0;padding-left:18px;color:#898782;font-size:14px;line-height:1.7}
 .experience-responsibilities li+li{margin-top:6px}
 .focus{background:#101010}
 .focus-grid{display:grid;grid-template-columns:1fr 1fr;gap:7vw;margin-top:65px}

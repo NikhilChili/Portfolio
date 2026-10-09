@@ -83,3 +83,12 @@
 {"timestamp":"01:42:53.017","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
 {"timestamp":"01:42:53.017","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
 {"timestamp":"01:42:53.017","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"01:47:55.942","source":"Server","level":"LOG","message":"✓ Compiled in 72ms"}
+{"timestamp":"01:48:01.209","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:48:01.271","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"01:48:01.272","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"01:48:01.272","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"01:48:01.272","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"01:48:49.545","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
+{"timestamp":"01:48:56.243","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"01:52:12.611","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}

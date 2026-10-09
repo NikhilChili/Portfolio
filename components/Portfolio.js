@@ -191,7 +191,7 @@ export default function Portfolio() {
         <div className="eyebrow">01 / INTRO</div>
         <p className="statement-text reveal-lines">{profile.intro}</p>
         <p className="intro-subtext">{profile.introSubtext}</p>
-        <div className="statement-bottom"><span>2 years’ experience</span><span>Marketing / Communications / Customer Journeys</span></div>
+        {/* <div className="statement-bottom"><span>2 years’ experience</span><span>Marketing / Communications / Customer Journeys</span></div> */}
       </section>
 
       <section id="about" className="about section-pad">
@@ -242,7 +242,7 @@ export default function Portfolio() {
       <section className="marquee"><div className="marquee-track">DIGITAL COMMUNICATIONS <i>✳</i> CUSTOMER JOURNEYS <i>✳</i> CAMPAIGN STRATEGY <i>✳</i> CUSTOMER EXPERIENCE <i>✳</i> MARKETING OPERATIONS <i>✳</i></div></section>
 
       <section className="experience section-pad">
-        <div className="section-heading"><div className="eyebrow">04 / EXPERIENCE</div><span>Nov 2025 – Present</span></div>
+        <div className="section-heading"><div className="eyebrow">04 / EXPERIENCE</div></div>
         <div className="experience-list">
           {experience.map((item) => (
             <div className="experience-row" key={item.role}>
