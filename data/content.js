@@ -84,6 +84,8 @@ export const experience = [
     role: "Marketing & Communications",
     company: "1 Finance P2P",
     period: "Nov 2025 – Present",
+    image: "/p2p2.png",
+    imageAlt: "Shivam at Global Fintech Fest 2026",
     tagline: "Translating between lenders, borrowers, and the eternal question: ‘Paisa kab aayega?’",
     description: "Working across customer communication, campaigns and operations on a digital P2P lending platform, making sure both lenders and borrowers always know what’s happening, what’s next, and why.",
     responsibilities: [
@@ -100,6 +102,8 @@ export const experience = [
     role: "Customer Service Executive",
     company: "Unity Small Finance Bank · Mumbai",
     period: "Oct 2024 – Oct 2025",
+    image: "/unity.png",
+    imageAlt: "Shivam's Unity Small Finance Bank workstation and employee badge",
     tagline: "Where I learned patience, precision, and that ‘just one quick question’ is never one, or quick.",
     description: "Supported customer service and branch operations, keeping documentation accurate and everything on the right side of banking regulations.",
     responsibilities: [

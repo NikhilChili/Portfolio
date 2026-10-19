@@ -1,94 +1,14 @@
-{"timestamp":"00:00:05.490","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:15.016","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:00:17.280","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:02:05.996","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:02:06.399","source":"Server","level":"LOG","message":"✓ Compiled in 133ms"}
-{"timestamp":"00:07:50.121","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:08:34.428","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:08:34.791","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
-{"timestamp":"00:08:52.489","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:08:57.730","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:08:58.765","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:08:58.816","source":"Browser","level":"WARN","message":"Image with src \"/shivamimage.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
-{"timestamp":"00:08:58.843","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/shivamimage.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
-{"timestamp":"00:09:39.055","source":"Server","level":"LOG","message":"✓ Compiled in 73ms"}
-{"timestamp":"00:11:21.524","source":"Server","level":"LOG","message":"✓ Compiled in 80ms"}
-{"timestamp":"00:11:38.035","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:12:14.148","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
-{"timestamp":"00:12:23.991","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:12:24.026","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:12:24.057","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:12:24.057","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:12:24.061","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:12:27.840","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:12:27.860","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:12:27.861","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:12:27.861","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:12:27.861","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:12:38.555","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:12:38.572","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:12:38.572","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:12:38.573","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:12:38.573","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:15:29.766","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:15:29.792","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:15:29.793","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:15:29.793","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:15:29.793","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:15:33.020","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:15:33.039","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:15:33.039","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:15:33.039","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:15:33.040","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:16:16.552","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:16:16.572","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:16:16.572","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:16:16.573","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:16:16.573","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:17:52.797","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:17:52.822","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:17:52.823","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:17:52.823","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:17:52.823","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:23:39.950","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:23:39.997","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:23:39.997","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:23:39.997","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"00:23:39.997","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"00:24:15.701","source":"Server","level":"LOG","message":"✓ Compiled in 87ms"}
-{"timestamp":"01:25:21.625","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"01:25:21.678","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"01:25:21.679","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"01:25:21.680","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"01:25:21.680","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"01:28:13.586","source":"Server","level":"LOG","message":"✓ Compiled in 67ms"}
-{"timestamp":"01:28:37.757","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"01:28:37.795","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"01:28:37.795","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"01:28:37.796","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"01:28:37.796","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"01:29:16.941","source":"Server","level":"LOG","message":"✓ Compiled in 77ms"}
-{"timestamp":"01:29:54.808","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
-{"timestamp":"01:32:59.978","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
-{"timestamp":"01:37:42.436","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"01:37:42.480","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"01:37:42.481","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"01:37:42.481","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"01:37:42.481","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"01:42:45.600","source":"Server","level":"LOG","message":"✓ Compiled in 56ms"}
-{"timestamp":"01:42:48.221","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
-{"timestamp":"01:42:48.282","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
-{"timestamp":"01:42:52.991","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"01:42:53.017","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"01:42:53.017","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"01:42:53.017","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"01:42:53.017","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"01:47:55.942","source":"Server","level":"LOG","message":"✓ Compiled in 72ms"}
-{"timestamp":"01:48:01.209","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"01:48:01.271","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"01:48:01.272","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"01:48:01.272","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
-{"timestamp":"01:48:01.272","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
-{"timestamp":"01:48:49.545","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
-{"timestamp":"01:48:56.243","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
-{"timestamp":"01:52:12.611","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:00:04.820","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:14.879","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:18.586","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:18.616","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:00:18.628","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:00:18.628","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:00:18.630","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:03:59.123","source":"Server","level":"LOG","message":"✓ Compiled in 109ms"}
+{"timestamp":"00:04:35.865","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:05:05.763","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
+{"timestamp":"00:05:55.201","source":"Server","level":"LOG","message":"✓ Compiled in 4ms"}
+{"timestamp":"00:06:37.971","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
+{"timestamp":"00:07:42.860","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:08:14.938","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}

@@ -246,7 +246,17 @@ export default function Portfolio() {
         <div className="experience-list">
           {experience.map((item) => (
             <div className="experience-row" key={item.role}>
-              <span className="exp-period">{item.period}</span>
+              <div className="experience-aside">
+                <span className="exp-period">{item.period}</span>
+                <Image
+                  className="experience-image"
+                  src={item.image}
+                  alt={item.imageAlt}
+                  width={900}
+                  height={600}
+                  style={{ objectPosition: item.image === "/unity.png" ? "center 68%" : "center" }}
+                />
+              </div>
               <div className="experience-copy">
                 <h3>{item.role}</h3>
                 <p>{item.company}</p>
