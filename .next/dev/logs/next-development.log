@@ -12,3 +12,9 @@
 {"timestamp":"00:06:37.971","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
 {"timestamp":"00:07:42.860","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
 {"timestamp":"00:08:14.938","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
+{"timestamp":"00:24:57.136","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:24:57.178","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:24:57.179","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:24:57.179","source":"Browser","level":"WARN","message":"GSAP target .hero-orb not found. https://gsap.com"}
+{"timestamp":"00:24:57.179","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-orb not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(components/Portfolio.js:74:12)\\u001b[22m\""}
+{"timestamp":"00:26:22.946","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}

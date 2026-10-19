@@ -38,13 +38,16 @@ function ProjectVisual({ project }) {
           <div className="visual-steps">{project.visualSteps.map((step) => <span key={step}>{step}</span>)}</div>
         </>
       )}
-      {/* {project.visual === "playbook" && (
+      {project.visual === "playbook" && (
         <>
-          <div className="playbook-title">COMMS<br />SYSTEM</div>
-          <div className="playbook-circle">CX</div>
-          <div className="playbook-note">MAP → TRIGGER → TEST → MEASURE</div>
+          <div className="automation-robot" aria-hidden="true">
+            <span className="robot-antenna" />
+            <div className="robot-head"><i /><i /><b /></div>
+            <div className="robot-body"><span /><span /><i /></div>
+          </div>
+          <div className="playbook-note">TRIGGER → ROUTE → SEND</div>
         </>
-      )} */}
+      )}
     </div>
   );
 }
@@ -286,8 +289,11 @@ export default function Portfolio() {
             </div>
           ))}
           <div className="personal-interests">
-            <h2>Personal Interests</h2>
-            <div className="interest-list">{interests.map((item) => <article key={item.name}><h3>{item.name}</h3><p>{item.description}</p><small>{item.note}</small></article>)}</div>
+            <div className="personal-interests-copy">
+              <h2>Personal Interests</h2>
+              <div className="interest-list">{interests.map((item) => <article key={item.name}><h3>{item.name}</h3><p>{item.description}</p><small>{item.note}</small></article>)}</div>
+            </div>
+            <Image className="interests-image" src="/cricket.jpeg" alt="Shivam at Wankhede Stadium" width={1200} height={1600} />
           </div>
         </div>
       </section>
